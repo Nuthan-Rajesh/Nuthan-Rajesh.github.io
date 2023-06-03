@@ -780,14 +780,34 @@ a:hover {
   transform: scale(1.3);
 }
 
+
+
 .work-img {
-  display: block;
+  width: 100%;
+  height: 300px; /* Adjust the desired height for the images */
+  overflow: hidden;
+}
+
+.work-img1 {
+  width: 100%;
+  height: 100%; /* Adjust the desired height for the images */
   overflow: hidden;
 }
 
 .work-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: all 1s;
 }
+
+.work-img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 1s;
+}
+
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
