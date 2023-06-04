@@ -704,11 +704,47 @@ a:hover {
 //--//-->   SERVICES
 ======================================*/
 
+.service-box1 {
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.service-box1:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.service-box1 .service-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+
+.service-box1 .ico-circle {
+  transition: all 500ms ease;
+  font-size: 4rem;
+}
+
+.service-box1 .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem 0;
+}
+
+.service-box1 .s-description {
+  color: #4e4e4e;
+}
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  height: 310px;
 }
 
 .service-box:hover .ico-circle {
